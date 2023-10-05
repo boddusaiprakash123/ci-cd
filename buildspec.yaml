@@ -1,26 +1,23 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      docker: 19
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 747533830207..dkr.ecr.ap-southeast-2.amazonaws.com
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com
+
   build:
     commands:
       - echo Building the Docker image...
       - docker build -t test .
       - echo Tagging the Docker image...
       - docker tag test:latest 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest
+
   post_build:
     commands:
       - echo Pushing the Docker image to Amazon ECR...
       - docker push 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest
 
 artifacts:
-  files:
-    - Dockerfile
-    - '**/*'
+  files: Dockerfile
 

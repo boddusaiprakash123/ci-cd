@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1696528306,,"wq!"
+|2,0,1696528461,,"wq!"
 :q!
 |2,0,1696526323,,"q!"
 
@@ -48,11 +48,40 @@
 	      - docker push 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest
 	
 	artifacts:
+	  files:
+	    - Dockerfile
+	    - '**/*'
+	
+|3,1,1,1,26,0,1696528456,"version: 0.2","","phases:","  install:","    runtime-versions:","      docker: 19","  pre_build:","    commands:","      - echo Logging in to Amazon ECR...","      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 747533830207..dkr.ecr.ap-southeast-2.amazonaws.com","  build:","    commands:","      - echo Building the Docker image...","      - docker build -t test .",>42
+|<"      - echo Tagging the Docker image...","      - docker tag test:latest 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest","  post_build:","    commands:","      - echo Pushing the Docker image to Amazon ECR...","      - docker push 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest","","artifacts:","  files:","    - Dockerfile","    - '**/*'",""
+"2	LINE	0
+	version: 0.2
+	
+	phases:
+	  install:
+	    runtime-versions:
+	      docker: 19
+	  pre_build:
+	    commands:
+	      - echo Logging in to Amazon ECR...
+	      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 747533830207..dkr.ecr.ap-southeast-2.amazonaws.com
+	  build:
+	    commands:
+	      - echo Building the Docker image...
+	      - docker build -t test .
+	      - echo Tagging the Docker image...
+	      - docker tag test:latest 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest
+	  post_build:
+	    commands:
+	      - echo Pushing the Docker image to Amazon ECR...
+	      - docker push 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest
+	
+	artifacts:
 	  files: Dockerfile
 	
-|3,1,1,1,24,0,1696528301,"version: 0.2","","phases:","  install:","    runtime-versions:","      docker: 19","  pre_build:","    commands:","      - echo Logging in to Amazon ECR...","      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 747533830207..dkr.ecr.ap-southeast-2.amazonaws.com","  build:","    commands:","      - echo Building the Docker image...","      - docker build -t test .",>42
+|3,0,2,1,24,0,1696528301,"version: 0.2","","phases:","  install:","    runtime-versions:","      docker: 19","  pre_build:","    commands:","      - echo Logging in to Amazon ECR...","      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 747533830207..dkr.ecr.ap-southeast-2.amazonaws.com","  build:","    commands:","      - echo Building the Docker image...","      - docker build -t test .",>42
 |<"      - echo Tagging the Docker image...","      - docker tag test:latest 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest","  post_build:","    commands:","      - echo Pushing the Docker image to Amazon ECR...","      - docker push 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest","","artifacts:","  files: Dockerfile",""
-"2	LINE	0
+"3	LINE	0
 	# Use the official NGINX base image
 	FROM nginx
 	
@@ -67,37 +96,41 @@
 	# Start NGINX when the container starts
 	CMD ["nginx", "-g", "daemon off;"]
 	
-|3,0,2,1,14,0,1696525060,"# Use the official NGINX base image","FROM nginx","","# Copy custom NGINX configuration file(s) to the container","COPY nginx.conf /etc/nginx/nginx.conf","","# (Optional) Copy custom HTML files to the NGINX web root directory","","# Expose port 80 for HTTP","EXPOSE 80","","# Start NGINX when the container starts","CMD [\"nginx\", \"-g\", \"daemon off;\"]",""
-"3	LINE	0
+|3,0,3,1,14,0,1696525060,"# Use the official NGINX base image","FROM nginx","","# Copy custom NGINX configuration file(s) to the container","COPY nginx.conf /etc/nginx/nginx.conf","","# (Optional) Copy custom HTML files to the NGINX web root directory","","# Expose port 80 for HTTP","EXPOSE 80","","# Start NGINX when the container starts","CMD [\"nginx\", \"-g\", \"daemon off;\"]",""
+"4	LINE	0
 	COPY index.html/ /var/www/html/
-|3,0,3,1,1,0,1696525053,"COPY index.html/ /var/www/html/"
+|3,0,4,1,1,0,1696525053,"COPY index.html/ /var/www/html/"
 "-	CHAR	0
 	i
 |3,0,36,0,1,0,1696528257,"i"
 
 # File marks:
-'0  26  0  ~/buildspec.yaml
-|4,48,26,0,1696528306,"~/buildspec.yaml"
-'1  1  80  ~/buildspec.yaml
-|4,49,1,80,1696526602,"~/buildspec.yaml"
-'2  20  80  ~/buildspec.yaml
-|4,50,20,80,1696526602,"~/buildspec.yaml"
-'3  1  12  ~/buildspec.yaml
-|4,51,1,12,1696526323,"~/buildspec.yaml"
-'4  1  12  ~/buildspec.yaml
-|4,52,1,12,1696526323,"~/buildspec.yaml"
-'5  18  12  ~/buildspec.yaml
-|4,53,18,12,1696526323,"~/buildspec.yaml"
-'6  18  12  ~/buildspec.yaml
-|4,54,18,12,1696526323,"~/buildspec.yaml"
-'7  18  0  ~/Dockerfile
-|4,55,18,0,1696525065,"~/Dockerfile"
-'8  1  4  ~/Dockerfile
-|4,56,1,4,1696525019,"~/Dockerfile"
-'9  8  4  ~/Dockerfile
-|4,57,8,4,1696525019,"~/Dockerfile"
+'0  23  0  ~/buildspec.yaml
+|4,48,23,0,1696528461,"~/buildspec.yaml"
+'1  1  0  ~/buildspec.yaml
+|4,49,1,0,1696528306,"~/buildspec.yaml"
+'2  26  0  ~/buildspec.yaml
+|4,50,26,0,1696528306,"~/buildspec.yaml"
+'3  1  80  ~/buildspec.yaml
+|4,51,1,80,1696526602,"~/buildspec.yaml"
+'4  1  80  ~/buildspec.yaml
+|4,52,1,80,1696526602,"~/buildspec.yaml"
+'5  1  80  ~/buildspec.yaml
+|4,53,1,80,1696526602,"~/buildspec.yaml"
+'6  20  80  ~/buildspec.yaml
+|4,54,20,80,1696526602,"~/buildspec.yaml"
+'7  1  12  ~/buildspec.yaml
+|4,55,1,12,1696526323,"~/buildspec.yaml"
+'8  1  12  ~/buildspec.yaml
+|4,56,1,12,1696526323,"~/buildspec.yaml"
+'9  1  12  ~/buildspec.yaml
+|4,57,1,12,1696526323,"~/buildspec.yaml"
 
 # Jumplist (newest first):
+-'  23  0  ~/buildspec.yaml
+|4,39,23,0,1696528461,"~/buildspec.yaml"
+-'  1  0  ~/buildspec.yaml
+|4,39,1,0,1696528451,"~/buildspec.yaml"
 -'  26  0  ~/buildspec.yaml
 |4,39,26,0,1696528306,"~/buildspec.yaml"
 -'  1  80  ~/buildspec.yaml
@@ -128,6 +161,38 @@
 |4,39,18,0,1696525065,"~/Dockerfile"
 -'  18  0  ~/Dockerfile
 |4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696525065,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
+-'  1  4  ~/Dockerfile
+|4,39,1,4,1696525049,"~/Dockerfile"
 -'  1  4  ~/Dockerfile
 |4,39,1,4,1696525049,"~/Dockerfile"
 -'  1  4  ~/Dockerfile
@@ -161,6 +226,34 @@
 -'  8  4  ~/Dockerfile
 |4,39,8,4,1696525019,"~/Dockerfile"
 -'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696525019,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
 |4,39,8,4,1696524962,"~/Dockerfile"
 -'  8  4  ~/Dockerfile
 |4,39,8,4,1696524962,"~/Dockerfile"
@@ -176,74 +269,10 @@
 |4,39,8,4,1696524962,"~/Dockerfile"
 -'  8  4  ~/Dockerfile
 |4,39,8,4,1696524962,"~/Dockerfile"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
--'  1  39  ~/index.html
-|4,39,1,39,1696524611,"~/index.html"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
+-'  8  4  ~/Dockerfile
+|4,39,8,4,1696524962,"~/Dockerfile"
 -'  1  39  ~/index.html
 |4,39,1,39,1696524611,"~/index.html"
 -'  1  39  ~/index.html
@@ -302,10 +331,10 @@
 # History of marks within files (newest to oldest):
 
 > ~/buildspec.yaml
-	*	1696528304	0
-	"	26	0
-	^	26	0
-	.	25	12
+	*	1696528459	0
+	"	23	0
+	^	23	0
+	.	22	19
 	+	1	19
 	+	1	154
 	+	1	19
@@ -314,7 +343,7 @@
 	+	1	91
 	+	1	80
 	+	1	12
-	+	25	12
+	+	22	19
 
 > ~/Dockerfile
 	*	1696525063	0
