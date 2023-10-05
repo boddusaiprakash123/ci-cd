@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo Building the Docker image...
-      - docker build -t test .
+      - docker build -t test -f /root/Dockerfile
       - echo Tagging the Docker image...
       - docker tag test:latest 747533830207.dkr.ecr.ap-southeast-2.amazonaws.com/test:latest
 

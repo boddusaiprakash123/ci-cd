@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1696529817,,"wq!"
+|2,0,1696529940,,"wq!"
 :q!
 |2,0,1696529300,,"q!"
 
@@ -107,32 +107,40 @@
 |3,0,36,0,1,0,1696528257,"i"
 
 # File marks:
-'0  12  28  ~/buildspec.yaml
-|4,48,12,28,1696529817,"~/buildspec.yaml"
-'1  12  29  ~/buildspec.yaml
-|4,49,12,29,1696529516,"~/buildspec.yaml"
-'2  23  0  ~/buildspec.yaml
-|4,50,23,0,1696529300,"~/buildspec.yaml"
-'3  23  0  ~/buildspec.yaml
-|4,51,23,0,1696529300,"~/buildspec.yaml"
-'4  23  0  ~/buildspec.yaml
-|4,52,23,0,1696529300,"~/buildspec.yaml"
-'5  23  0  ~/buildspec.yaml
-|4,53,23,0,1696529300,"~/buildspec.yaml"
-'6  23  0  ~/buildspec.yaml
-|4,54,23,0,1696529290,"~/buildspec.yaml"
-'7  23  0  ~/buildspec.yaml
-|4,55,23,0,1696529290,"~/buildspec.yaml"
+'0  12  43  ~/buildspec.yaml
+|4,48,12,43,1696529940,"~/buildspec.yaml"
+'1  12  48  ~/buildspec.yaml
+|4,49,12,48,1696529927,"~/buildspec.yaml"
+'2  12  28  ~/buildspec.yaml
+|4,50,12,28,1696529817,"~/buildspec.yaml"
+'3  12  28  ~/buildspec.yaml
+|4,51,12,28,1696529817,"~/buildspec.yaml"
+'4  12  29  ~/buildspec.yaml
+|4,52,12,29,1696529516,"~/buildspec.yaml"
+'5  12  29  ~/buildspec.yaml
+|4,53,12,29,1696529516,"~/buildspec.yaml"
+'6  12  29  ~/buildspec.yaml
+|4,54,12,29,1696529516,"~/buildspec.yaml"
+'7  12  29  ~/buildspec.yaml
+|4,55,12,29,1696529516,"~/buildspec.yaml"
 '8  23  0  ~/buildspec.yaml
-|4,56,23,0,1696529290,"~/buildspec.yaml"
+|4,56,23,0,1696529300,"~/buildspec.yaml"
 '9  23  0  ~/buildspec.yaml
-|4,57,23,0,1696529290,"~/buildspec.yaml"
+|4,57,23,0,1696529300,"~/buildspec.yaml"
 
 # Jumplist (newest first):
+-'  12  43  ~/buildspec.yaml
+|4,39,12,43,1696529940,"~/buildspec.yaml"
+-'  12  48  ~/buildspec.yaml
+|4,39,12,48,1696529927,"~/buildspec.yaml"
 -'  12  28  ~/buildspec.yaml
 |4,39,12,28,1696529817,"~/buildspec.yaml"
 -'  12  29  ~/buildspec.yaml
 |4,39,12,29,1696529516,"~/buildspec.yaml"
+-'  23  0  ~/buildspec.yaml
+|4,39,23,0,1696529492,"~/buildspec.yaml"
+-'  23  0  ~/buildspec.yaml
+|4,39,23,0,1696529492,"~/buildspec.yaml"
 -'  23  0  ~/buildspec.yaml
 |4,39,23,0,1696529492,"~/buildspec.yaml"
 -'  23  0  ~/buildspec.yaml
@@ -173,6 +181,102 @@
 |4,39,18,0,1696528885,"~/Dockerfile"
 -'  18  0  ~/Dockerfile
 |4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
 -'  23  0  ~/buildspec.yaml
 |4,39,23,0,1696528461,"~/buildspec.yaml"
 -'  23  0  ~/buildspec.yaml
@@ -189,6 +293,14 @@
 |4,39,1,0,1696528451,"~/buildspec.yaml"
 -'  1  0  ~/buildspec.yaml
 |4,39,1,0,1696528451,"~/buildspec.yaml"
+-'  1  0  ~/buildspec.yaml
+|4,39,1,0,1696528451,"~/buildspec.yaml"
+-'  1  0  ~/buildspec.yaml
+|4,39,1,0,1696528451,"~/buildspec.yaml"
+-'  26  0  ~/buildspec.yaml
+|4,39,26,0,1696528306,"~/buildspec.yaml"
+-'  26  0  ~/buildspec.yaml
+|4,39,26,0,1696528306,"~/buildspec.yaml"
 -'  26  0  ~/buildspec.yaml
 |4,39,26,0,1696528306,"~/buildspec.yaml"
 -'  26  0  ~/buildspec.yaml
@@ -217,126 +329,14 @@
 |4,39,20,80,1696526602,"~/buildspec.yaml"
 -'  20  80  ~/buildspec.yaml
 |4,39,20,80,1696526602,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696526324,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696526324,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  18  12  ~/buildspec.yaml
-|4,39,18,12,1696526323,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696526204,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696526204,"~/buildspec.yaml"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
--'  18  0  ~/Dockerfile
-|4,39,18,0,1696525065,"~/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
 > ~/buildspec.yaml
-	*	1696529815	0
-	"	12	28
-	^	12	29
-	.	12	28
+	*	1696529939	0
+	"	12	43
+	^	12	44
+	.	12	44
 	+	1	19
 	+	1	154
 	+	1	19
@@ -346,7 +346,7 @@
 	+	1	80
 	+	1	12
 	+	22	19
-	+	12	28
+	+	12	44
 
 > ~/Dockerfile
 	*	1696528884	0
