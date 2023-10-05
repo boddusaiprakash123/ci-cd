@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1696529940,,"wq!"
+|2,0,1696530118,,"wq!"
 :q!
 |2,0,1696529300,,"q!"
 
@@ -107,28 +107,30 @@
 |3,0,36,0,1,0,1696528257,"i"
 
 # File marks:
-'0  12  43  ~/buildspec.yaml
-|4,48,12,43,1696529940,"~/buildspec.yaml"
-'1  12  48  ~/buildspec.yaml
-|4,49,12,48,1696529927,"~/buildspec.yaml"
-'2  12  28  ~/buildspec.yaml
-|4,50,12,28,1696529817,"~/buildspec.yaml"
-'3  12  28  ~/buildspec.yaml
-|4,51,12,28,1696529817,"~/buildspec.yaml"
-'4  12  29  ~/buildspec.yaml
-|4,52,12,29,1696529516,"~/buildspec.yaml"
-'5  12  29  ~/buildspec.yaml
-|4,53,12,29,1696529516,"~/buildspec.yaml"
-'6  12  29  ~/buildspec.yaml
-|4,54,12,29,1696529516,"~/buildspec.yaml"
-'7  12  29  ~/buildspec.yaml
-|4,55,12,29,1696529516,"~/buildspec.yaml"
-'8  23  0  ~/buildspec.yaml
-|4,56,23,0,1696529300,"~/buildspec.yaml"
-'9  23  0  ~/buildspec.yaml
-|4,57,23,0,1696529300,"~/buildspec.yaml"
+'0  12  29  ~/buildspec.yaml
+|4,48,12,29,1696530118,"~/buildspec.yaml"
+'1  12  43  ~/buildspec.yaml
+|4,49,12,43,1696529940,"~/buildspec.yaml"
+'2  12  48  ~/buildspec.yaml
+|4,50,12,48,1696529927,"~/buildspec.yaml"
+'3  12  48  ~/buildspec.yaml
+|4,51,12,48,1696529927,"~/buildspec.yaml"
+'4  12  28  ~/buildspec.yaml
+|4,52,12,28,1696529817,"~/buildspec.yaml"
+'5  12  28  ~/buildspec.yaml
+|4,53,12,28,1696529817,"~/buildspec.yaml"
+'6  12  28  ~/buildspec.yaml
+|4,54,12,28,1696529817,"~/buildspec.yaml"
+'7  12  28  ~/buildspec.yaml
+|4,55,12,28,1696529817,"~/buildspec.yaml"
+'8  12  29  ~/buildspec.yaml
+|4,56,12,29,1696529516,"~/buildspec.yaml"
+'9  12  29  ~/buildspec.yaml
+|4,57,12,29,1696529516,"~/buildspec.yaml"
 
 # Jumplist (newest first):
+-'  12  29  ~/buildspec.yaml
+|4,39,12,29,1696530118,"~/buildspec.yaml"
 -'  12  43  ~/buildspec.yaml
 |4,39,12,43,1696529940,"~/buildspec.yaml"
 -'  12  48  ~/buildspec.yaml
@@ -137,6 +139,8 @@
 |4,39,12,28,1696529817,"~/buildspec.yaml"
 -'  12  29  ~/buildspec.yaml
 |4,39,12,29,1696529516,"~/buildspec.yaml"
+-'  23  0  ~/buildspec.yaml
+|4,39,23,0,1696529492,"~/buildspec.yaml"
 -'  23  0  ~/buildspec.yaml
 |4,39,23,0,1696529492,"~/buildspec.yaml"
 -'  23  0  ~/buildspec.yaml
@@ -277,66 +281,62 @@
 |4,39,18,0,1696528885,"~/Dockerfile"
 -'  18  0  ~/Dockerfile
 |4,39,18,0,1696528885,"~/Dockerfile"
--'  23  0  ~/buildspec.yaml
-|4,39,23,0,1696528461,"~/buildspec.yaml"
--'  23  0  ~/buildspec.yaml
-|4,39,23,0,1696528461,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  1  0  ~/buildspec.yaml
-|4,39,1,0,1696528451,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  26  0  ~/buildspec.yaml
-|4,39,26,0,1696528306,"~/buildspec.yaml"
--'  1  80  ~/buildspec.yaml
-|4,39,1,80,1696528166,"~/buildspec.yaml"
--'  1  80  ~/buildspec.yaml
-|4,39,1,80,1696528166,"~/buildspec.yaml"
--'  20  80  ~/buildspec.yaml
-|4,39,20,80,1696526602,"~/buildspec.yaml"
--'  20  80  ~/buildspec.yaml
-|4,39,20,80,1696526602,"~/buildspec.yaml"
--'  20  80  ~/buildspec.yaml
-|4,39,20,80,1696526602,"~/buildspec.yaml"
--'  20  80  ~/buildspec.yaml
-|4,39,20,80,1696526602,"~/buildspec.yaml"
--'  20  80  ~/buildspec.yaml
-|4,39,20,80,1696526602,"~/buildspec.yaml"
--'  20  80  ~/buildspec.yaml
-|4,39,20,80,1696526602,"~/buildspec.yaml"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
+-'  18  0  ~/Dockerfile
+|4,39,18,0,1696528885,"~/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
 > ~/buildspec.yaml
-	*	1696529939	0
-	"	12	43
-	^	12	44
-	.	12	44
+	*	1696530117	0
+	"	12	29
+	^	12	30
+	.	12	29
 	+	1	19
 	+	1	154
 	+	1	19
@@ -346,7 +346,7 @@
 	+	1	80
 	+	1	12
 	+	22	19
-	+	12	44
+	+	12	29
 
 > ~/Dockerfile
 	*	1696528884	0
